@@ -1,3 +1,3 @@
 *EdgeDB
-asEdgeFilterFor: anEdgeSet
-	^ self value: anEdgeSet 
+asEdgeFilterFor: anEdgeShape
+	^ self value: anEdgeShape 
