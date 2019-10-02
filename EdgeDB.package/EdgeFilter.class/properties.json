@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "EdgeDB-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"operation",
+		"expression",
+		"property"
+	],
+	"name" : "EdgeFilter",
+	"type" : "normal"
+}
