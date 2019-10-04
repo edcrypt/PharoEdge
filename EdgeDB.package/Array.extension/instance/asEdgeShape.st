@@ -1,0 +1,3 @@
+*EdgeDB
+asEdgeShape 
+	^ EdgeShape newWith: '{}'

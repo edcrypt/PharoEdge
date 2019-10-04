@@ -1,0 +1,3 @@
+*EdgeDB
+asEdgeRootPath
+	^ self asString 
