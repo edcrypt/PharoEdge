@@ -12,8 +12,13 @@ testSelect
 	"Complex shapes"
 	set := EdgeSet new
 		select: #User -> #(name age).
-	self assert: set emitQuery equals: 'SELECT User {name, age}'.
+	self assert: set emitQuery equals: 'SELECT User{name, age}'.
 	"Properties"
 	set := EdgeSet new
 		select: #User -> { #name -> 42 }.
-	self assert: set emitQuery equals: 'SELECT User {name := 42}'
+	self assert: set emitQuery equals: 'SELECT User{name := 42}'.
+	"Sets with properties"
+	set := EdgeSet new
+		select: { #name -> 42 }.
+	self assert: set emitQuery equals: 'SELECT {name := 42}'.
+	

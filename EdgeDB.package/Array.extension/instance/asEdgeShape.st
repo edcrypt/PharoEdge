@@ -1,3 +1,3 @@
 *EdgeDB
 asEdgeShape 
-	^ EdgeShape newWith: '{}'
+	^ EdgeShape newWith: self asEdgeSubPath 
