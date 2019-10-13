@@ -1,3 +1,0 @@
-*EdgeDB
-asEdgeSubPath
-	^ '.', self asString 
