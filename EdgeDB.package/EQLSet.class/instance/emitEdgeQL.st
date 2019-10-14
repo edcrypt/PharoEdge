@@ -1,4 +1,4 @@
-as yet unclassified
+converting
 emitEdgeQL
 	^ String streamContents: [ :stream |
 		stream nextPutAll: 'SELECT '.

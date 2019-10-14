@@ -1,0 +1,3 @@
+converting
+asEdgeQLString
+	^ self subclassResponsibility 

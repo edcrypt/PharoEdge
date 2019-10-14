@@ -1,0 +1,3 @@
+*EdgeDB
+asEdgeQLString 
+	^ self notYetImplemented 

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "EQLSelector",
+	"category" : "EdgeDB-Selectors",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"value"
+	],
+	"name" : "EQLReference",
+	"type" : "normal"
+}
